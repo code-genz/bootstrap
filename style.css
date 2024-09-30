@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  
+}
+body{
+    background-color: #e9edf2;
+}
+.basic{
+    border-radius: 10px;
+}
+.form-label::after{
+    content: "*";
+    color: red;
+}
+
+.upload_input{
+    display: none;
+}
+
+.form-select{
+    color:#949DB9;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 10px;
+   
+}
+.form-control::placeholder{
+    color:#949DB9;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-control:focus{
+box-shadow: none;
+border-color:#949DB9; ;
+}
+
+.upload_photo{
+    border: 1px ;
+    border: dashed;
+    border-color:#B2BAD0 ;
+    border-radius: 13px;
+    padding: 1px;
+
+   
+}
+.form-control{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.row{
+    justify-content: space-between;
+}
+.form-check {
+    font-size: 400;
+ font-size: 14px;
+ color:#2B3674;
+}
+.form-range{
+    align-items: baseline;
+}
+.range{
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 70px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #B6BBC7;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.upload_cont {
+    background-color: #FDF4D1 ;
+    border: 1px solid #FBE7A5;
+    border-radius: 12px;
+}
+.basic{
+   background-color:  white
+}
+.text-range{
+    width: 50px;
+    align-items: center;
+    border-radius: 5px;
+}
+.form-color{
+   width: 100%;
+}
+small{
+    font-size: 12px;
+    font-weight: 500;
+    color: #8F9BBA;
+}
+h5{
+ font-weight: 700;
+ font-size: 16px;
+}
+h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: #624E17;
+}
+ h4{
+    color:  #2B3674;
+    font-size: 24px;
+    font-weight: 700;
+ }
+ .form-check-label{
+    color: #2B3674;
+    font-size: 13px;
+    font-weight: 500;
+
+ }
+ .form-label {
+    font-weight: 500;
+    font-size: 14px;
+    color:#2B3674;
+ }
+ .form-label-quali{
+    font-weight: 500;
+    font-size: 14px;
+    color:#2B3674;
+ }
+.btn{    
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 15px;
+   
+}
+.transparent-btn{
+    background-color: #FAF9FF;
+    border: none;
+    color: #2B3674;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.botton {
+    gap: 5px;
+}
+.row{
+    border-radius: 12px;
+}
+.temp{
+    white-space: nowrap;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background: #4318FF;
+}
+
