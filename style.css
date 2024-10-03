@@ -17,6 +17,9 @@ body{
 .upload_input{
     display: none;
 }
+.icon{
+    color: #4318FF;  
+}
 
 .form-select{
     color:#949DB9;
@@ -70,13 +73,14 @@ border-color:#949DB9; ;
     border: 1px solid #B6BBC7;
     font-weight: 500;
     font-size: 14px;
+    color: #2B3674;
 }
 
 .upload_cont {
-    background-color: #FDF4D1 ;
     border: 1px solid #FBE7A5;
     border-radius: 12px;
 }
+
 .basic{
    background-color:  white
 }
@@ -88,8 +92,8 @@ border-color:#949DB9; ;
 .form-color{
    width: 100%;
 }
-.text-primary{
-    color: #4318FF 
+.text_col{
+    color: #4318FF ;
 }
 small{
     font-size: 12px;
@@ -157,6 +161,6 @@ input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 15px;
     width: 15px;
-    background: #4318FF;
+    background:#4318FF;
 }
 
